@@ -1,0 +1,21 @@
+
+   Illuminate\Contracts\Container\BindingResolutionException 
+
+  Target class [Database\Seeders\'cmodel_id'=,5),] does not exist.
+
+  at C:\xampp\htdocs\hand-brake\project\vendor\laravel\framework\src\Illuminate\Container\Container.php:879
+    875▕ 
+    876▕         try {
+    877▕             $reflector = new ReflectionClass($concrete);
+    878▕         } catch (ReflectionException $e) {
+  ➜ 879▕             throw new BindingResolutionException("Target class [$concrete] does not exist.", 0, $e);
+    880▕         }
+    881▕ 
+    882▕         // If the type is not instantiable, the developer is attempting to resolve
+    883▕         // an abstract type such as an Interface or Abstract Class and there is
+
+  1   C:\xampp\htdocs\hand-brake\project\vendor\laravel\framework\src\Illuminate\Container\Container.php:877
+      ReflectionException::("Class "Database\Seeders\'cmodel_id'=,5)," does not exist")
+
+  2   C:\xampp\htdocs\hand-brake\project\vendor\laravel\framework\src\Illuminate\Container\Container.php:877
+      ReflectionClass::__construct("Database\Seeders\'cmodel_id'=,5),")
